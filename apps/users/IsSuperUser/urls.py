@@ -1,0 +1,1 @@
+path('users/<int:user_id>/role/', UserRoleToggleView.as_view(), name='user-role-toggle'),
